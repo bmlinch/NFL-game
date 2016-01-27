@@ -11,6 +11,8 @@ function addPlayer(e) {
     var epic = new AddPlayerToRoster(playerName, position, num)
     roster.push(epic);
     draw(epic)
+    debugger
+    form.reset()
 }
 
 function draw(obj) {
@@ -30,10 +32,8 @@ function draw(obj) {
 
 newPlayerForm.submit(addPlayer)
 
-$('#reset').click(resett)
+// $('#reset').click(resett)
 
-function resett(e){
-    $('#addname').text("")
-    $('#addposition').text("")
-    $('#addnumber').text("")
-}
+
+
+   

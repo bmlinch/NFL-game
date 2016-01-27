@@ -1,4 +1,6 @@
 .player-card{
     display:inline-block;
     border: 1px solid black;
+    margin-right: 3px;
+    text-align: center;
 }
